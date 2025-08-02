@@ -992,7 +992,25 @@
             .footer-content {
                 flex-direction: column;
             }
-        }
+           .ai-generator-card {
+                 flex-direction: column;
+                     gap: 1.5rem;
+           }
+
+           .ai-generator h2 {
+               font-size: 2rem;
+           }
+
+           .ai-generator p {
+              font-size: 1rem;
+           }
+
+           .input-section .options {
+               flex-direction: column;
+               gap: 0.5rem;
+           }
+         }      
+      
 
         @media (max-width: 480px) {
             .nav-content {
