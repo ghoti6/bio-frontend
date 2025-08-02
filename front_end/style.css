@@ -1031,48 +1031,48 @@
             }
         }
 
-@media (max-width: 480px) {
-  /* Shrink headings and buttons more */
-  .hero h1 {
-    font-size: 24px;
-    line-height: 1.3;
-  }
+       @media (max-width: 480px) {
+       /* Shrink headings and buttons more */
+            .hero h1 {
+            font-size: 24px;
+            line-height: 1.3;
+             }
 
-  .hero p,
-  .about p,
-  .services p,
-  .ai-generator p,
-  .contact p {
-    font-size: 14px;
-  }
+            .hero p,
+            .about p,
+            .services p,
+            .ai-generator p,
+            .contact p {
+              font-size: 14px;
+            }
 
-  .input-section textarea,
-  .input-section input,
-  .input-section button,
-  .output-section button {
-    font-size: 14px;
-    padding: 10px;
-  }
+            .input-section textarea,
+            .input-section input,
+            .input-section button,
+            .output-section button {
+              font-size: 14px;
+              padding: 10px;
+             }
 
-  .ai-generator-card {
-    padding: 16px;
-  }
+           .ai-generator-card {
+           padding: 16px;
+           }
 
-  .nav-content,
-  .footer-content {
-    flex-direction: column;
-    gap: 12px;
-    align-items: center;
-  }
+          .nav-content,
+          .footer-content {
+          flex-direction: column;
+          gap: 12px;
+         align-items: center;
+          }
 
-  .mobile-menu-btn {
-    font-size: 20px;
-  }
+         .mobile-menu-btn {
+         font-size: 20px;
+        }
 
-  .output-section .output-box {
-    font-size: 14px;
-    height: auto;
-    min-height: 120px;
-  }
-}
+        .output-section .output-box {
+             font-size: 14px;
+              height: auto;
+            min-height: 120px;
+         }
+      }
 
