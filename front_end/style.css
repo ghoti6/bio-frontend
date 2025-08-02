@@ -1029,6 +1029,37 @@
             .contact-form button {
                 width: 100%;
             }
+            .ai-generator {
+              padding: 1rem 0;
+            }
+
+            .ai-generator-content {
+              padding: 0 10px;
+            }
+
+            .ai-generator h2 {
+              font-size: 1.75rem;
+            }
+
+            .ai-generator p {
+              font-size: 0.9rem;
+            }
+
+            .input-section textarea,
+            .input-section button,
+            .output-section button {
+                 font-size: 0.9rem;
+                 padding: 0.5rem;
+           }
+
+            .input-section .options label {
+              font-size: 0.85rem;
+           }
+
+            .output-section .output-box {
+               min-height: 100px;
+           }
+            
         }
         
      
