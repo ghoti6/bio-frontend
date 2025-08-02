@@ -996,13 +996,13 @@
 
         @media (max-width: 480px) {
             .nav-content {
-                flex-direction: column;
+                flex-direction: row;
                 gap: 16px;
             }
 
             .logo-container {
                 width: 100%;
-                justify-content: center;
+                justify-content: right;
             }
 
             .nav-links {
