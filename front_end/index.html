@@ -225,6 +225,16 @@
     </footer>
 
     <script>
+     // Generate Particles
+      const particlesContainer = document.getElementById('particles');
+        for (let i = 0; i < 100; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = `${Math.random() * 60}%`;
+            particle.style.top = `${Math.random() * 60}%`;
+            particle.style.animationDelay = `${Math.random() * 2}s`;
+            particlesContainer.appendChild(particle);
+        }
      document.addEventListener("DOMContentLoaded", function () {
       const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
       const mobileNav = document.querySelector(".mobile-nav");
