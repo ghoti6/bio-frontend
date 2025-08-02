@@ -1002,7 +1002,7 @@
 
             .logo-container {
                 width: 100%;
-                justify-content: right;
+                justify-content: left;
             }
 
             .nav-links {
