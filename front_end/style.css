@@ -997,7 +997,7 @@
         @media (max-width: 480px) {
             .nav-content {
                 flex-direction: row;
-                gap: 16px;
+                gap: 6px;
             }
 
             .logo-container {
