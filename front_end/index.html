@@ -256,7 +256,8 @@
       const notes = document.getElementById("notes").value;
       const outputBox = document.querySelector(".output-box");
 
-      outputBox.innerHTML = "<em>Generating...</em>";
+     outputBox.innerHTML = `<div class="spinner"></div><em>Generating...</em>`;
+
 
       try {
         const response = await fetch("https://bio-backend-dqf5.onrender.com/generate", {
